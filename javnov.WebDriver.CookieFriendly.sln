@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6BEC8122-FEAE-4A99-A7AA-548CC5C45D81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DDEF19D4-C810-4102-A6B5-59FFE1994828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "javnov.WebDriver.CookieFriendly", "src\javnov.WebDriver.CookieFriendly\javnov.WebDriver.CookieFriendly.csproj", "{2D4CB528-E185-4299-A833-DA4DDF322A93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "javnov.WebDriver.CookieFriendly.IntegrationTest", "test\javnov.WebDriver.CookieFriendly.IntegrationTest\javnov.WebDriver.CookieFriendly.IntegrationTest.csproj", "{1DB092A3-9854-477F-B803-414DE39F9073}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D4CB528-E185-4299-A833-DA4DDF322A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4CB528-E185-4299-A833-DA4DDF322A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4CB528-E185-4299-A833-DA4DDF322A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4CB528-E185-4299-A833-DA4DDF322A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB092A3-9854-477F-B803-414DE39F9073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB092A3-9854-477F-B803-414DE39F9073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB092A3-9854-477F-B803-414DE39F9073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB092A3-9854-477F-B803-414DE39F9073}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D4CB528-E185-4299-A833-DA4DDF322A93} = {6BEC8122-FEAE-4A99-A7AA-548CC5C45D81}
+		{1DB092A3-9854-477F-B803-414DE39F9073} = {DDEF19D4-C810-4102-A6B5-59FFE1994828}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00C87728-71C4-460C-A23E-823521D27B7B}
+	EndGlobalSection
+EndGlobal

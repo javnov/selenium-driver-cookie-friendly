@@ -1,0 +1,35 @@
+configuration: Release
+image: Visual Studio 2017
+#restore NuGet
+before_build:
+    - nuget restore javnov.WebDriver.CookieFriendly.sln
+
+#build solution
+build:
+    project: javnov.WebDriver.CookieFriendly.sln
+    verbosity: normal
+    publish_wap: true
+
+after_build:
+    - nuget pack src\javnov.WebDriver.CookieFriendly\javnov.WebDriver.CookieFriendly.nuspec -Version %appveyor_build_version%
+    - appveyor PushArtifact javnov.WebDriver.CookieFriendly.%appveyor_build_version%.nupkg
+
+#tests
+test:
+  # all except categories to test
+  categories:
+    except:
+      - Muted
+    
+#Push to nuget
+deploy:
+    provider: NuGet
+    api_key:
+        secure: p9oEpckfETxoBnUzn2SiA3leYVdFxJhka5UOud1ML9Oq0Hh/MCYvtTF2r9khTkLD
+    skip_symbols: false
+    artifact: /.*\.nupkg/
+    
+only_commits:
+  files:
+    - src/
+    - test/

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>javnov.WebDriver.CookieFriendly</id>
+    <version>$version$</version>
+    <title>Cookie friendly web driver for Selenium</title>
+    <authors>javnov</authors>
+    <owners>javnov</owners>
+    <projectUrl>https://github.com/javnov/selenium-driver-cookie-friendly</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Marketing cookies friendly web driver for Selenium in C#.</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>javnov selenium webdriver cookies</tags>
+	<dependencies>
+		<dependency id="Selenium.WebDriver" version="2.53.1" />
+    </dependencies>
+	
+  </metadata>
+  <files>
+	<file src="bin\**\javnov.WebDriver.CookieFriendly	*.dll" target="lib\net45" />
+  </files>
+</package>
