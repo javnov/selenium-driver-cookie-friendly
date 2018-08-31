@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/sfvkovsx56vyqvlb?svg=true)](https://ci.appveyor.com/project/javnov/selenium-driver-cookie-friendly)
+[![Build status](https://ci.appveyor.com/api/projects/status/sfvkovsx56vyqvlb/branch/master?svg=true&passingText=master%20-%20OK)](https://ci.appveyor.com/project/javnov/selenium-driver-cookie-friendly/branch/master)
+
 # selenium-driver-cookie-friendly
 Give to selenium a WebDriver that is friendly with marketing cookies
 
